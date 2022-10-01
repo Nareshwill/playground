@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            agent {
+                docker {
+                    image 'nareshc3/grpc:4.0'
+                    registryUrl 'https://index.docker.io/r/nareshc3/grpc'
+                    registryCredentialsId 'nareshc3'
+                }
+            }
+            steps {
+                sh 'python --version'
+            }
+        }
+        stage('Lint') {
+            agent {
+                docker {
+                    image 'nareshc3/grpc:4.0'
+                    registryUrl 'https://index.docker.io/r/nareshc3/grpc'
+                    registryCredentialsId 'nareshc3'
+
+                    reuseNode true
+                }
+            }
+            steps {
+                sh 'pwd'
+                sh 'echo Changing Directory'
+                sh 'pwd'
+                sh 'ls'
+                sh 'ls /home'
+                sh 'cd /home'
+                sh 'pwd'
+                sh 'ls'
+                dir('/home') {
+                    sh 'pwd'
+                    sh 'ls'
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "ami_id": {
+    "sensitive": False,
+    "type": "string",
+    "value": "ami-0fa1be31209869730"
+  },
+  "db_instance_ip": {
+    "sensitive": False,
+    "type": "string",
+    "value": "172.1.0.107"
+  },
+  "worker_instance_ip": {
+    "sensitive": False,
+    "type": [
+      "object",
+      {
+        "instance_id": [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ],
+        "private_ip": [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ]
+      }
+    ],
+    "value": {
+      "instance_id": [
+        "i-0d4a9d5ef72017001",
+        "i-010b8b3f3b970fc3b"
+      ],
+      "private_ip": [
+        "10.0.1.156",
+        "10.0.3.107"
+      ]
+    }
+  }
+}

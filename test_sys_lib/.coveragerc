@@ -1,0 +1,27 @@
+[run]
+# To omit file/exclude file from coverage report generation/aggregation.
+omit=
+    */site-packages/* 
+    */tests/*
+    */.eggs/*
+    */dist-packages/*
+    /usr/lib/python3/*
+    /usr/lib/python3.6/*
+    /usr/lib/python3.8/*
+    /home/kpit/.local/lib/python3.6/*
+# To handle conflicting package enable timid flag
+timid=True
+
+[report]
+# To exclude lines from code which already have test cases available.
+exclude_lines=
+    pragma: no cover
+    pr_dtp = ''
+    pr_cat = ''
+    md = 'a'
+    ise = 'replace'
+
+[html]
+# To save the coverage report in the specific directory.
+directory=htmlcov
+

@@ -1,0 +1,194 @@
+{
+    "bench_dump_location": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1",
+    "bench_output_location": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-output\/carla\/bench1",
+    "parameters": {
+        "bench_id": 11,
+        "scheduler_uuid": "d3320c4a-5e7a-4f43-b7c1-61b44b143ac0",
+        "start_date_time": "24\/03\/2022 07:24:54",
+        "start_scene": "s3:\/\/cclp-bench-data-dev-03\/data\/temp\/scenario_files\/20211209_Group_101_SC_ADHWY_ALC_346b_Var73.zip",
+        "test_point_id": 1044
+    },
+    "sensor": "Carla",
+    "video_list": [
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_346b_Var73.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_338_Var216.zip",
+            "prev": "null",
+            "runner_uuid": "0e782f3d-db5a-4074-921e-58e786883e6b",
+            "scenario_uuid": "9836db93-cb92-4e20-b574-63e10b7ee8ce",
+            "session_uuid": "6f8e413d-ab54-4e00-8fcb-5652266e7927",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_338_Var216.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_4s_Var347.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_346b_Var73.zip",
+            "runner_uuid": "f5aeeabc-c2cc-4060-9977-c8bb54d95343",
+            "scenario_uuid": "95fba49d-3ed4-416f-9156-3a3b9f9bc732",
+            "session_uuid": "fe033cb0-7906-479b-bd8f-d35a40f8653d",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_4s_Var347.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALCCancel_4x_Var1008.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_338_Var216.zip",
+            "runner_uuid": "718ef72e-9314-4654-b166-44be5e773fd7",
+            "scenario_uuid": "67f6fce2-aa69-4a21-b943-c433ea34ea40",
+            "session_uuid": "e2fa87c5-02bd-478b-b3d9-f4e05e3b1f40",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALCCancel_4x_Var1008.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_330a_Var248.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_4s_Var347.zip",
+            "runner_uuid": "ad7ae940-c882-4a93-96c1-740c012788c8",
+            "scenario_uuid": "4f94a248-e1ad-4312-9f86-695f2fac2fda",
+            "session_uuid": "105c1fbf-619f-4c86-b0c4-80ffb89f7bd3",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_330a_Var248.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_OVT_4g_Var236.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALCCancel_4x_Var1008.zip",
+            "runner_uuid": "c1827520-ccfc-4c17-8660-b22e332f7069",
+            "scenario_uuid": "ae016d50-b903-40ed-b0c5-9d6458938f9c",
+            "session_uuid": "f061a4a7-7c7d-4ef7-b5b1-a21d11868af3",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_OVT_4g_Var236.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_LVF_3i_Var23.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_330a_Var248.zip",
+            "runner_uuid": "d3518d21-7232-4766-9222-026352ed148f",
+            "scenario_uuid": "a5bc43a3-b497-4450-92f7-5025381779b4",
+            "session_uuid": "17c5f372-9913-46d5-9105-3766b65ba2ff",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_LVF_3i_Var23.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_339b_Var116.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_OVT_4g_Var236.zip",
+            "runner_uuid": "133adb05-1f18-4b98-a19c-5a28f9a05b6e",
+            "scenario_uuid": "07edb543-7f3b-420d-b468-8dfb22d2de0a",
+            "session_uuid": "cd428fa4-3d9d-4c98-b050-b06ba98d8005",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_339b_Var116.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_334b_Var173.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_LVF_3i_Var23.zip",
+            "runner_uuid": "9372080d-fcd4-4a10-94b1-9a894c071bfc",
+            "scenario_uuid": "1d0a3071-07cb-4233-9931-ce194e44080d",
+            "session_uuid": "b15eaedd-ba4f-44c3-9592-a35e8a3d1077",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_334b_Var173.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALCCancel_6h_Var1751.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_339b_Var116.zip",
+            "runner_uuid": "383af666-1761-437c-b584-64e999a847a9",
+            "scenario_uuid": "df6c582e-c2e3-4f9b-9851-7ee26ab95588",
+            "session_uuid": "05610477-c8cb-41f7-994f-799b0274d6fa",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALCCancel_6h_Var1751.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_83d_Var175.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_334b_Var173.zip",
+            "runner_uuid": "ac87b1fd-e95d-4b59-9210-ff9a954c355c",
+            "scenario_uuid": "a71b3c97-05c7-4894-853f-b41ac27e7e18",
+            "session_uuid": "412dfea2-cb4b-43aa-b32a-5c6a7c7bdd2e",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_83d_Var175.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_82e_Var14.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALCCancel_6h_Var1751.zip",
+            "runner_uuid": "da801201-6965-4a68-823c-b94007ddae18",
+            "scenario_uuid": "1cc063ab-5434-480e-be97-8a59ef8e3d91",
+            "session_uuid": "f0cffde8-33f8-4dc8-b5d5-26decb441407",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_82e_Var14.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_OVT_5e_Var299.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_83d_Var175.zip",
+            "runner_uuid": "168fa51f-efa4-4bb1-b802-83872196b891",
+            "scenario_uuid": "88bb6145-ed82-4f98-abf3-ce671a80d995",
+            "session_uuid": "531ad41a-9a8c-4f6e-a64c-7fa10a2efa90",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_OVT_5e_Var299.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_343c_Var97.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_82e_Var14.zip",
+            "runner_uuid": "e15f5137-2ad0-4406-96a9-3480d8a50423",
+            "scenario_uuid": "f17da2ab-925f-4732-a9fd-db197efd41d2",
+            "session_uuid": "f1ac7ccb-2a47-495b-9f71-e27b931035af",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_343c_Var97.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_343b_Var5.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_OVT_5e_Var299.zip",
+            "runner_uuid": "e7937dcd-7e78-4aba-897a-7e7d2361dcda",
+            "scenario_uuid": "ecc257a0-3340-46bc-a1eb-452f973f8f8b",
+            "session_uuid": "11cc26d1-b96c-408a-bd82-6dda670baf70",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_343b_Var5.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_81e_Var848.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_343c_Var97.zip",
+            "runner_uuid": "2d5b859a-ecb5-4362-8717-0096a7b9d11e",
+            "scenario_uuid": "6dae029c-329d-4a25-9417-4fc5cc6cef33",
+            "session_uuid": "8e710d4a-a19e-45d2-a6f0-003611e39b63",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_81e_Var848.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_82f_Var343.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_343b_Var5.zip",
+            "runner_uuid": "3143fd06-5a0f-492d-93a0-056ff19d324d",
+            "scenario_uuid": "c76f9f55-a447-486b-a804-82135530fa20",
+            "session_uuid": "0550dccd-50d5-4782-9138-044a31f15ee3",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_82f_Var343.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_PAS_ALC_06_Var25.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_81e_Var848.zip",
+            "runner_uuid": "8506ef77-a9da-4625-b629-5f44e7232c78",
+            "scenario_uuid": "4e436641-a901-4f26-8066-586870c662c2",
+            "session_uuid": "37fc61bc-7115-43d1-b9d8-6b0741df286b",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_PAS_ALC_06_Var25.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_LVF_312d_Var31.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_82f_Var343.zip",
+            "runner_uuid": "08b21ae4-fed6-45ec-83f8-2148df11ebc9",
+            "scenario_uuid": "8a8459d1-407e-4455-87e1-6a2bdcf769a9",
+            "session_uuid": "9fe4928d-e479-40e2-92f4-c21bc9f55e21",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_LVF_312d_Var31.zip",
+            "next": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_9a_Var3017.zip",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_PAS_ALC_06_Var25.zip",
+            "runner_uuid": "99e2f628-710f-4d99-878f-344a800ee3c0",
+            "scenario_uuid": "096b34ba-3d70-4f14-86f2-f4e6135e1300",
+            "session_uuid": "dfb45fd4-26cd-4503-9437-18fbd87bb6f5",
+            "status": "completed_with_success"
+        },
+        {
+            "current": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_ALC_9a_Var3017.zip",
+            "next": "null",
+            "prev": "\/home\/rajivt\/code\/scenario_simulation\/source\/sample\/data\/bench-data\/carla\/bench1\/20211209_Group_101_SC_ADHWY_LVF_312d_Var31.zip",
+            "runner_uuid": "aa91fabb-14de-4767-a41b-66e2aa9f9f16",
+            "scenario_uuid": "ab114463-faea-461d-974d-3c288b3b35e1",
+            "session_uuid": "853be94d-e98f-4bdf-957a-e856638be12a",
+            "status": "completed_with_success"
+        }
+    ]
+}

@@ -1,0 +1,790 @@
+[
+  {
+    "scenario_uuid": "b8ecb41e-6176-491d-9bea-8772c9a808f3",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_2c_Var18_20210819.zip"
+  },
+  {
+    "scenario_uuid": "86974dcc-2c71-45fa-927d-fdc5195fccd4",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_2d_Var145_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4a056059-94a9-4555-8970-3919cffc298c",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_141a_Var198_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c42106d8-5f9b-4fe8-ab82-53c27ae64962",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_142a_Var139_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e1ce9d68-eb2b-4727-86a5-47e3c9d8a298",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_143a_Var43_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e49612a1-59bd-4cab-bfa6-7cda9ee8d1a3",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_144a_Var65_Group_29_20210915.zip"
+  },
+  {
+    "scenario_uuid": "a8842120-2d7e-4022-b084-3e57ae8b9ee2",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_145a_Var202_Group_24_20210915.zip"
+  },
+  {
+    "scenario_uuid": "167f9235-9887-4987-ac41-c74b396b93a9",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_2b_Var14_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "9596ba3b-4261-4880-931f-1e9e8b666f47",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_301a_Var214_Group_9_20210915.zip"
+  },
+  {
+    "scenario_uuid": "a5e1dc6e-42e1-448c-b55d-96b86d1e1741",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_301b_Var197_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "ad7d82fa-bfac-422f-9d34-a87925d2da40",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_302_Var1006_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "2d8d5350-0f76-4835-b92a-3b5d67fd48e5",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_303_Var183_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "a579b990-1a8f-4d1c-8bd9-45130e0cc100",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_304_Var94_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c107196b-2fab-4bcb-87a7-130ce0fa01b2",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_306a_Var167_Group_24_20210915.zip"
+  },
+  {
+    "scenario_uuid": "09043426-57d2-4612-89f0-09b147da067e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_306b_Var53_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "74d205c2-da90-4a56-8b03-787eb30a74ab",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_308a_Var158_Group_9_20210915.zip"
+  },
+  {
+    "scenario_uuid": "d37c2388-9150-4a0b-81a7-4b0da453fc68",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_308b_Var105_Group_9_20210915.zip"
+  },
+  {
+    "scenario_uuid": "5a00c129-a7c6-4e0e-a3f7-6b4a242ad8b3",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_308c_Var80_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "aebe8f46-fc68-4f04-8701-c59c7a35d9ca",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_308d_Var51_Group_35_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c8544efe-c6ab-4a8a-a87d-b80e831e4ce8",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_310a_Var160_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c13f65fb-b8a4-4f08-b16e-dc724243d701",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_310b_Var137_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "ba261f24-4ecc-4653-a9cd-d55382e4313b",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_310c_Var4484_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "3a554278-0556-43af-a862-f80c9ce2fab7",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_310d_Var49_Group_9_20210915.zip"
+  },
+  {
+    "scenario_uuid": "8114bff6-3760-4bdb-8cb7-aba52dc4a651",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_311a_Var143_Group_24_20210915.zip"
+  },
+  {
+    "scenario_uuid": "937ba6bf-0add-4527-b1bc-4ce2e7565594",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_311b_Var104_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "8a8d4e20-60dc-4419-9cd8-b0e11c045c3b",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_311c_Var144_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b43d43d9-46c9-40c6-8866-51b85b4ecbf1",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_311d_Var18_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4dd48b1e-8f5d-4dd0-9da8-51e631797033",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_314a_Var45_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e522ba66-19ca-47b5-b154-9b1b283b637e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_315a_Var129_Group_9_20210915.zip"
+  },
+  {
+    "scenario_uuid": "5d7f4cff-4100-42fe-8256-f56360533d5e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_315b_Var116_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e4e43ecd-1013-494d-8fd6-e33b601ea517",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_316a_Var162_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "1f3d65c6-27d4-4c11-8f69-52572d9d7aa9",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_316b_Var145_Group_19_20210915.zip"
+  },
+  {
+    "scenario_uuid": "14829ef2-2235-411a-bbd5-6685e9e88d0d",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_316c_Var18_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "5ddb385e-221d-43a7-9f09-4e51d0ebc43b",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_316d_Var65_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "1b0c9b62-afbc-4fe0-adce-16bae8431469",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_317a_Var164_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "68299c56-c5b3-46cb-9d1c-296eae29a7a5",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_317b_Var58_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "7150c149-b156-473f-9fc6-9760a2762f68",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_317c_Var23_Group_9_20210915.zip"
+  },
+  {
+    "scenario_uuid": "81728f0a-8dfb-40bc-a5db-a14929f5d83a",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_317d_Var189_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c2ef4683-1449-4ee7-b3b4-fabaf327286a",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_3i_Var61_Group_2_20210915.zip"
+  },
+  {
+    "scenario_uuid": "75016314-8911-42f8-9019-e7beea2f0c3b",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_3j_Var119_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "07a35ab5-5f48-44a0-9193-98df51650fff",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_80b_Var96_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "8bcf1c64-be06-4b1d-8576-e0e5cf86467e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_81i_Var47_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "6d84e2c0-6267-4e5a-a877-254faa9d0c10",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_81j_Var34_Group_19_20210915.zip"
+  },
+  {
+    "scenario_uuid": "2b5db4c4-fa4c-4b06-b0c1-2db9b6071468",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_OVT_3g_Var44_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e01351f2-4928-4755-ad5f-74249825f218",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_OVT_4n_Var108_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "d686efa2-8250-43e8-b387-b55298c351ec",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_TJP_5h_Var5_Group_24_20210915.zip"
+  },
+  {
+    "scenario_uuid": "362f47b9-13d7-473d-a3d3-47362eff4b79",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_TJP_8a_Var119_Group_12_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0a9f924d-d516-4b29-9418-fd3150cb3e3c",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_TJP_8b_Var191_Group_35_20210915.zip"
+  },
+  {
+    "scenario_uuid": "eb4c3d92-c793-4f9a-a00d-e36c2d1f2441",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_140a_Var183_Group_9_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c0675538-83c4-4412-abb9-c5f600c82302",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_152a_Var89_Group_28_20210915.zip"
+  },
+  {
+    "scenario_uuid": "29561778-417f-40ed-ac64-f013a7dac700",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALCCancel_82j_Var44_Group_47_20210915.zip"
+  },
+  {
+    "scenario_uuid": "7031ca1a-d0a7-4dac-9043-a27c5950bb1f",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_309c_Var262_Group_33_20210915.zip"
+  },
+  {
+    "scenario_uuid": "647e7b68-4451-46a6-944a-5cdffd02dd10",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_349b_Var12_Group_357_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0a91f7a5-bfa9-4c86-bc41-3895568aadef",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_330b_Var278_Group_163_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4b147aa0-727c-47b1-985f-9379497b895d",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_84k_Var682_Group_20_20210915.zip"
+  },
+  {
+    "scenario_uuid": "104f3dea-d63f-4c81-87fb-5eb3d9a1b863",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_340c_Var26_Group_120_20210915.zip"
+  },
+  {
+    "scenario_uuid": "ba9830b6-cd23-41a3-b7bb-e7ce003952ba",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_333a_Var105_Group_169_20210915.zip"
+  },
+  {
+    "scenario_uuid": "5f4dca9f-17a7-4cc9-afb5-2ca510804101",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_332d_Var109_Group_27_20210915.zip"
+  },
+  {
+    "scenario_uuid": "eacb4a05-f165-4c33-bf30-0b1e8fa43252",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_305_Var290_Group_25_20210915.zip"
+  },
+  {
+    "scenario_uuid": "ce228d35-0284-4bdd-818a-3b77fffd651b",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_81l_Var42_Group_16_20210915.zip"
+  },
+  {
+    "scenario_uuid": "2f07c820-4639-42db-94c6-6a11b1a9e3db",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_327b_Var163_Group_226_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e74e6d60-d8f4-4cca-831d-c81a18a7767e",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_346d_Var177_Group_207_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e9db365a-6405-4711-993c-ce6a44258dc2",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_345b_Var721_Group_29_20210915.zip"
+  },
+  {
+    "scenario_uuid": "d7456003-c21b-4f6a-85e8-d768247d3c63",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_LVF_309b_Var227_Group_111_20210915.zip"
+  },
+  {
+    "scenario_uuid": "59357c7f-0010-47fd-ae11-935722c289e0",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_83d_Var533_Group_54_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b9a8eef5-2c2b-415c-9595-a36c62216d59",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALCCancel_5g_Var1199_Group_202_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b577ddcb-9b58-45c5-bc69-ddf4de2fc518",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_326c_Var232_Group_24_20210915.zip"
+  },
+  {
+    "scenario_uuid": "2fc1ab71-86ed-4424-9946-7fe6af44aa5e",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_6e_Var98_Group_314_20210915.zip"
+  },
+  {
+    "scenario_uuid": "3c634600-7f96-4369-8017-1251d686e82a",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_LVF_307a_Var185_Group_269_20210915.zip"
+  },
+  {
+    "scenario_uuid": "eccb6f9c-cd6d-43ac-9f39-fdb3660b0047",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_81p_Var315_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "a47732b8-1357-4900-9aae-67dc3e892227",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_82s_Var3014_Group_24_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0f8fc9ea-86f5-4a13-b9ad-1de216d73697",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_83x_Var218_Group_29_20210915.zip"
+  },
+  {
+    "scenario_uuid": "1b2c81fe-ad53-4028-9713-da96c461924f",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_83e_Var58_Group_133_20210915.zip"
+  },
+  {
+    "scenario_uuid": "f4d5c2d2-ea3b-4b7b-a2e8-6958b6330630",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_347b_Var199_Group_44_20210915.zip"
+  },
+  {
+    "scenario_uuid": "d4b1cf17-f495-4fec-ae9f-5b80aab90610",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_326d_Var298_Group_267_20210915.zip"
+  },
+  {
+    "scenario_uuid": "53ba031c-32d3-4b7c-8827-3758c4537d08",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_80c_Var13_Group_117_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b922bf20-b643-451b-ad9a-23c977ee0231",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_340b_Var56_Group_96_20210915.zip"
+  },
+  {
+    "scenario_uuid": "fed0b1eb-1bc0-429c-8c11-ef62fca4b3ad",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_TJP_4l_Var5174_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "536e6daf-c1d8-4ceb-89d8-b68d19b1b37e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_83q_Var1097_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "8e665b48-18fe-481d-9f60-d12d30af28e8",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_6j_Var1080_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "31d9e4ea-ad19-4ecd-b22c-9ee50d81f098",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_81d_Var75_Group_211_20210915.zip"
+  },
+  {
+    "scenario_uuid": "04393967-244d-4e09-944d-c5c11b3400ec",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_325b_Var145_Group_84_20210915.zip"
+  },
+  {
+    "scenario_uuid": "6630809a-654f-42e8-a8b9-5a915225b95c",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_332c_Var19_Group_204_20210915.zip"
+  },
+  {
+    "scenario_uuid": "215b1d16-a0cf-49f2-ab99-822738255159",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_TJP_08_Var267_Group_37_20210915.zip"
+  },
+  {
+    "scenario_uuid": "988b7583-f8c4-469f-a873-59c3c7e70f37",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_329a_Var15_Group_88_20210915.zip"
+  },
+  {
+    "scenario_uuid": "6b0b9e68-d1b1-4a24-945b-e88e1692ec90",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_329b_Var40_Group_36_20210915.zip"
+  },
+  {
+    "scenario_uuid": "2712b6ab-52dd-4284-86a1-86c46fbe563a",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_345c_Var15_Group_23_20210915.zip"
+  },
+  {
+    "scenario_uuid": "15797785-7399-4df3-a57b-3cb76d11b398",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_346a_Var21_Group_255_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b992a62c-7109-4e8f-94c3-0ae10eca1e92",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_84s_Var2078_Group_40_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b2c33165-f7b9-4aab-92b5-275195a33729",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_330d_Var54_Group_262_20210915.zip"
+  },
+  {
+    "scenario_uuid": "dd5e867f-671e-4139-827a-83ddeadc2766",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_338_Var388_Group_135_20210915.zip"
+  },
+  {
+    "scenario_uuid": "7cc3e7c0-4591-4334-bfe9-7a3093b6ed79",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_307c_Var25_Group_18_20210915.zip"
+  },
+  {
+    "scenario_uuid": "94878b64-ce72-4548-bf34-43b27686a377",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_334b_Var87_Group_202_20210915.zip"
+  },
+  {
+    "scenario_uuid": "043a75f2-30b7-4f1b-a3c9-e7299f7d69f9",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_83u_Var2250_Group_12_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0839564f-079c-431d-9434-ca902d6cab3e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_3m_Var1087_Group_21_20210915.zip"
+  },
+  {
+    "scenario_uuid": "40e29aaf-b139-4dc9-bcc7-5ec7f3170728",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_83i_Var2135_Group_38_20210915.zip"
+  },
+  {
+    "scenario_uuid": "717a1d08-1e9c-4a8e-ae44-423913ebca42",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_LVF_309a_Var138_Group_225_20210915.zip"
+  },
+  {
+    "scenario_uuid": "205c920a-a0a6-42d6-b84a-03ac4131163e",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_349c_Var59_Group_274_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4e5f5d29-4ed6-47e0-99a5-2e2169852893",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_LVF_307d_Var70_Group_7_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0c4bd694-c451-41c3-ae59-cbd6d65d1ef1",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_326a_Var59_Group_76_20210915.zip"
+  },
+  {
+    "scenario_uuid": "20d2059d-b96e-408e-9a08-8ea8e174f59e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_5f_Var775_Group_22_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e25b0758-88a1-40ee-b687-a1e349cf4025",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_TJP_83m_Var2037_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4412d63f-3281-4b38-a374-48d33fb930e5",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_339a_Var296_Group_114_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4448fa1e-0ec6-4d9b-84e9-c167c94280f6",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_344a_Var42_Group_386_20210915.zip"
+  },
+  {
+    "scenario_uuid": "f86d7758-79fa-4031-bfd7-8fed6030cf14",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_4x_Var856_Group_26_20210915.zip"
+  },
+  {
+    "scenario_uuid": "2c472c9a-4670-42a1-ad86-dd315efcb4cc",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_83k_Var419_Group_36_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0f054e17-eea8-437d-b8b1-0f9f8bd7d240",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_325a_Var31_Group_378_20210915.zip"
+  },
+  {
+    "scenario_uuid": "3c95fb38-b59c-4451-b9ae-78e04b9afc16",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_83s_Var2291_Group_2_20210915.zip"
+  },
+  {
+    "scenario_uuid": "31c812cf-f9a1-483b-a33d-0d3bd59c25ca",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_84j_Var56_Group_27_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c5ffede0-cca3-4687-9706-5709365a7a44",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_6f_Var61_Group_14_20210915.zip"
+  },
+  {
+    "scenario_uuid": "fe742bc5-302e-4a79-8d3f-48c82af565d0",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_84u_Var1025_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "bb70e840-ad1a-4686-bef9-f1280172f49e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_348a_Var105_Group_26_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c3c7c493-5a65-47d9-8288-0f435ab6c9fd",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_331c_Var216_Group_34_20210915.zip"
+  },
+  {
+    "scenario_uuid": "e8960dcd-dc1e-4ce3-8e59-f3b443c7310b",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_343c_Var142_Group_120_20210915.zip"
+  },
+  {
+    "scenario_uuid": "3e63dc06-98ef-4928-869f-28b86e87569a",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_80d_Var31_Group_241_20210915.zip"
+  },
+  {
+    "scenario_uuid": "56c5eb95-f510-4681-897c-50b77bcb1b13",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_335_Var16_Group_215_20210915.zip"
+  },
+  {
+    "scenario_uuid": "ef846289-581d-4925-8ff1-c3c4434499b3",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_341b_Var591_Group_211_20210915.zip"
+  },
+  {
+    "scenario_uuid": "eb667fc0-2d3a-4051-baa4-2024c017dcfb",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_333b_Var95_Group_274_20210915.zip"
+  },
+  {
+    "scenario_uuid": "8512f47c-93ab-4b1e-aa29-4463b04f01a1",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_327c_Var67_Group_31_20210915.zip"
+  },
+  {
+    "scenario_uuid": "3d9381f9-c071-4f9f-afc9-f491be34cdc2",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_5b_Var288_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "7b56c5c4-9ccc-4acc-9f19-909df5f0e30d",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_326b_Var4_Group_8_20210915.zip"
+  },
+  {
+    "scenario_uuid": "256fd93a-af99-4ebe-828e-0dff825086df",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_ADN_01_Var1_Group_63_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c63410c6-803d-4fd4-80af-01c8647a42c7",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_343b_Var134_Group_74_20210915.zip"
+  },
+  {
+    "scenario_uuid": "9d04c7bb-3b88-4cd9-b806-18dbdb049595",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_5a_Var1272_Group_225_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0fa99cb4-7d66-496b-ba97-0b243defaaf8",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_330c_Var267_Group_335_20210915.zip"
+  },
+  {
+    "scenario_uuid": "a56d102d-3353-4094-9dac-a1da8d283206",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_81e_Var535_Group_32_20210915.zip"
+  },
+  {
+    "scenario_uuid": "050df01d-fa43-46a6-90b0-0c39f008387f",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_84x_Var721_Group_20_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b191e6c8-c7ed-4141-a95c-f3128bd47441",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_343a_Var26_Group_54_20210915.zip"
+  },
+  {
+    "scenario_uuid": "1d84a21e-5a13-44bc-a069-ca16d7dd56da",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_84i_Var270_Group_18_20210915.zip"
+  },
+  {
+    "scenario_uuid": "2401b2e3-d9e2-4c79-86e4-faba46559b5c",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_3l_Var303_Group_34_20210915.zip"
+  },
+  {
+    "scenario_uuid": "a89bc3ce-9d11-45ed-8ec9-0256fc8b6bcf",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_331a_Var264_Group_160_20210915.zip"
+  },
+  {
+    "scenario_uuid": "2db00bdd-343c-4895-ba66-99dd76dec64a",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_9d_Var1049_Group_16_20210915.zip"
+  },
+  {
+    "scenario_uuid": "5be86611-c665-4f81-8c78-407f27241c15",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_344c_Var5_Group_108_20210915.zip"
+  },
+  {
+    "scenario_uuid": "6dde0132-a5d2-405f-b32e-fb8caaac88f8",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_332b_Var98_Group_35_20210915.zip"
+  },
+  {
+    "scenario_uuid": "5297e853-bfe8-4fc2-b74e-c44184190246",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_6h_Var1712_Group_5_20210915.zip"
+  },
+  {
+    "scenario_uuid": "600e5dcf-4faf-412c-a3e5-d4ae2d9ee413",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_321_Var81_Group_378_20210915.zip"
+  },
+  {
+    "scenario_uuid": "8c3cb7e8-31f2-40cd-a2ce-e2458ddff5cc",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_4i_Var1983_Group_37_20210915.zip"
+  },
+  {
+    "scenario_uuid": "73256b5c-0e11-4508-837f-21290e4f8bcd",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_334a_Var158_Group_145_20210915.zip"
+  },
+  {
+    "scenario_uuid": "9a9f49ed-1189-4804-8856-b7f894d62129",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_327a_Var95_Group_211_20210915.zip"
+  },
+  {
+    "scenario_uuid": "aa20b0cf-7b04-4ea3-b8aa-aba1a469d299",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_4k_Var646_Group_22_20210915.zip"
+  },
+  {
+    "scenario_uuid": "d1618b6d-1313-4ff0-bc12-ea129ee798d5",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_341d_Var59_Group_40_20210915.zip"
+  },
+  {
+    "scenario_uuid": "de466b10-af22-468d-82d3-f26863546937",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_344d_Var6_Group_171_20210915.zip"
+  },
+  {
+    "scenario_uuid": "403a8fda-657b-4bce-8573-611a6e752530",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_349a_Var1_Group_93_20210915.zip"
+  },
+  {
+    "scenario_uuid": "84d5e7a4-3166-4366-876b-22e55c4cec12",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_344b_Var41_Group_41_20210915.zip"
+  },
+  {
+    "scenario_uuid": "59393c4f-c525-436d-908f-49c0f8024259",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_84e_Var89_Group_62_20210915.zip"
+  },
+  {
+    "scenario_uuid": "bcfcd845-8b87-4453-aba5-20bdd033f2a0",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_345a_Var60_Group_47_20210915.zip"
+  },
+  {
+    "scenario_uuid": "6c1a03db-ec02-4c5f-8789-4b0a4cede64b",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_4s_Var2512_Group_251_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4f071ee3-3ee5-4973-b184-f736248b111a",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_9a_Var2742_Group_28_20210915.zip"
+  },
+  {
+    "scenario_uuid": "ff9298aa-0fa3-49d5-b370-6ad05bd083c9",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_332a_Var106_Group_149_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4423ea75-64a2-49c2-b15a-29444a8ea885",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_3e_Var2005_Group_1_20210915.zip"
+  },
+  {
+    "scenario_uuid": "6932a31c-75b7-4574-a5e9-53b846237e6e",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALCCancel_4j_Var320_Group_196_20210915.zip"
+  },
+  {
+    "scenario_uuid": "3ff5ac53-c738-4528-ad18-1f18c08ee78b",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_347a_Var35_Group_300_20210915.zip"
+  },
+  {
+    "scenario_uuid": "a2d6bff5-a234-4d98-bca7-facec02e32ef",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_327d_Var3_Group_6_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4424abc5-d0af-4cfc-a766-ffb9ef8e9a65",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_LVF_309d_Var304_Group_256_20210915.zip"
+  },
+  {
+    "scenario_uuid": "bb71816c-2b53-4e9f-ac51-534a3ce40b1a",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_340d_Var47_Group_25_20210915.zip"
+  },
+  {
+    "scenario_uuid": "86c1b255-1d50-406b-baf3-da6e2f869193",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_ADN_02_Var7_Group_46_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b6f01128-e409-46bb-b8b2-bf3caae463f5",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_337_Var33_Group_32_20210915.zip"
+  },
+  {
+    "scenario_uuid": "16bb74f2-7999-4d25-9808-80853ad32f49",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_331b_Var253_Group_81_20210915.zip"
+  },
+  {
+    "scenario_uuid": "a0269a16-bcd7-437d-b942-2ec6433848f7",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_6i_Var76_Group_6_20210915.zip"
+  },
+  {
+    "scenario_uuid": "5a0a5741-e388-4186-837e-92ac6ea53682",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_345d_Var58_Group_335_20210915.zip"
+  },
+  {
+    "scenario_uuid": "547acb4e-7966-4fda-a98f-8678502600e0",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_84r_Var877_Group_136_20210915.zip"
+  },
+  {
+    "scenario_uuid": "22bc77cd-396f-4225-b0a6-e08e91d78359",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_331d_Var33_Group_66_20210915.zip"
+  },
+  {
+    "scenario_uuid": "fab1f848-9973-4f19-b6d5-8de41d807626",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_82r_Var3016_Group_344_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b34034a9-89d0-45d9-87da-e058d34a9c08",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_341c_Var659_Group_119_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b49f827a-13c7-46b4-9f8a-f538c63b570a",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_346b_Var10_Group_175_20210915.zip"
+  },
+  {
+    "scenario_uuid": "7b8de73e-d622-4cdf-9762-36c170c54eae",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_324_Var772_Group_251_20210915.zip"
+  },
+  {
+    "scenario_uuid": "475d6c38-a137-4291-9d8c-681117d0b134",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_322_Var96_Group_107_20210915.zip"
+  },
+  {
+    "scenario_uuid": "995648f6-1002-4c29-a1bc-ceab2b152d20",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_LVF_307b_Var58_Group_95_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0d6aaf88-d76c-49f1-9fae-627e36ff0df2",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_320a_Var80_Group_39_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4954c695-c781-474b-b850-1f07d6f6c6e5",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_348b_Var5_Group_35_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4e4c8591-5e73-43df-959d-ed263a6ecead",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_84q_Var1225_Group_3_20210915.zip"
+  },
+  {
+    "scenario_uuid": "8ba99c67-08eb-45b5-bb0c-bb6aff8d31b9",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_PAS_05_Var49_Group_34_20210915.zip"
+  },
+  {
+    "scenario_uuid": "63bcf5fa-1a09-4df9-8701-32da1f277fc5",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_349d_Var23_Group_420_20210915.zip"
+  },
+  {
+    "scenario_uuid": "d0269d02-a607-4953-afe2-6237e78ecadf",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALCCancel_81o_Var151_Group_104_20210915.zip"
+  },
+  {
+    "scenario_uuid": "95c7f111-8d7a-47ae-8fff-7946c6b0420d",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_82u_Var2357_Group_24_20210915.zip"
+  },
+  {
+    "scenario_uuid": "c8bea505-c5de-478e-98a4-10a00101f9d6",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_340a_Var57_Group_244_20210915.zip"
+  },
+  {
+    "scenario_uuid": "7a8b9a52-4213-45b2-b932-d00ef998ad9d",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_323_Var341_Group_14_20210915.zip"
+  },
+  {
+    "scenario_uuid": "149c582e-c0f8-47a3-8bed-5ef3737a6ff1",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_82k_Var240_Group_19_20210915.zip"
+  },
+  {
+    "scenario_uuid": "15d9aa7a-4049-4dd8-a73b-b203711a1955",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_81m_Var440_Group_24_20210915.zip"
+  },
+  {
+    "scenario_uuid": "6c2a5262-3074-461c-a9e6-1e48843f122d",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_83j_Var182_Group_12_20210915.zip"
+  },
+  {
+    "scenario_uuid": "0c852b4c-4362-44f9-83c8-a6bc003f39df",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_3o_Var490_Group_35_20210915.zip"
+  },
+  {
+    "scenario_uuid": "6fbc9a14-9b42-4ec9-9ca8-ee46f377d2a3",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALCCancel_82i_Var355_Group_150_20210915.zip"
+  },
+  {
+    "scenario_uuid": "4e40f080-ba49-4fc0-8acb-1d74d6929a5e",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_TJP_02_Var448_Group_2_20210915.zip"
+  },
+  {
+    "scenario_uuid": "df4761ea-e41a-4c00-8c06-5dbc6a9a4b4e",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_84d_Var473_Group_58_20210915.zip"
+  },
+  {
+    "scenario_uuid": "db0f6855-090f-4dbd-833a-ebdc51a5babb",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_84f_Var5305_Group_10_20210915.zip"
+  },
+  {
+    "scenario_uuid": "bedf7841-b4b8-477b-ad8d-3ea2c11d0c37",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_80i_Var347_Group_28_20210915.zip"
+  },
+  {
+    "scenario_uuid": "cb9f0524-0fcf-441f-af9d-9b68c72cef50",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_339b_Var48_Group_38_20210915.zip"
+  },
+  {
+    "scenario_uuid": "62d26f27-1a38-4825-b4da-3c6454451443",
+    "location": "s3://cclp-migration-data-test-02/data/temp/scenario_files/SC_ADHWY_ALC_346c_Var173_Group_390_20210915.zip"
+  },
+  {
+    "scenario_uuid": "3c35ce40-28e1-4532-a360-5cbb50948c5c",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_2i_Var1798_Group_5_20210915.zip"
+  },
+  {
+    "scenario_uuid": "f57bd520-7bdc-4a92-be33-a96800491114",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_336_Var178_Group_264_20210915.zip"
+  },
+  {
+    "scenario_uuid": "dd960974-a0b5-4bb1-bc63-453c0129f5b7",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALCCancel_82x_Var377_Group_6_20210915.zip"
+  },
+  {
+    "scenario_uuid": "8374e574-e856-40d1-ac01-5ef7db2f3092",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_83r_Var515_Group_8_20210915.zip"
+  },
+  {
+    "scenario_uuid": "1c5c6dd9-60c9-47df-9136-0b8eb293c803",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_6c_Var567_Group_62_20210915.zip"
+  },
+  {
+    "scenario_uuid": "675d20d1-0187-4c72-87b8-8ca11159683f",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_341a_Var134_Group_27_20210915.zip"
+  },
+  {
+    "scenario_uuid": "7c905ed0-2204-423c-8058-f2d4ccca1a19",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_343d_Var6_Group_158_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b408683b-ad40-4348-a60e-07cb8faeb092",
+    "location": "s3://cclp-bench-data-dev-01/data/temp/scenario_files/SC_ADHWY_ALC_83f_Var278_Group_8_20210915.zip"
+  },
+  {
+    "scenario_uuid": "b650e849-e60b-4408-8f40-cfb965e969ae",
+    "location": "s3://cclp-bench-data-dev-03/data/temp/scenario_files/SC_ADHWY_ALC_330a_Var239_Group_99_20210915.zip"
+  }
+]

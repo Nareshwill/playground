@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Download Yaml</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" crossorigin defer></script>
+    </head>
+    <body>
+        <button id="download-yaml">Download Yaml</button>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log('Loaded');
+                console.log(axios);
+                function downloadYaml(e) {
+                    const url = "http://localhost:5000/create_yaml"
+                    axios.get(url).then((response) => {
+                        console.log(response);
+                        if(response && response.status === 200){
+                            const fileName = response.headers["content-disposition"].split("filename=")[1];
+                            const url = window.URL.createObjectURL(
+                                new Blob([response.data]));
+                            const link = document.createElement('a');
+                            link.href = url;
+                            link.setAttribute('download',
+                                fileName);
+                            document.body.appendChild(link);
+                            link.click();
+                        }
+                    }).catch(error => {
+                        console.log(error);
+                    })
+                }
+
+                  const buttons = document.querySelectorAll('button');
+
+                  for(let i = 0; i < buttons.length ; i++) {
+                    buttons[i].addEventListener('click', downloadYaml);
+                  }
+            })
+        </script>
+    </body>
+</html>

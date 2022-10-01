@@ -1,0 +1,98 @@
+2022-04-12 21:14:13,306 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-12 21:14:13,306 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-12 21:19:09,578 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-12 21:19:09,579 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-12 21:21:34,543 - 127.0.0.1 - - [12/Apr/2022 21:21:34] "[31m[1mPOST /container/execution_status HTTP/1.1[0m" 400 -
+2022-04-12 21:22:45,183 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-12 21:22:45,183 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-12 21:22:56,881 - 127.0.0.1 - - [12/Apr/2022 21:22:56] "[31m[1mPOST /container/execution_status HTTP/1.1[0m" 400 -
+2022-04-12 21:24:54,092 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-12 21:24:54,093 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-12 21:24:57,516 - 127.0.0.1 - - [12/Apr/2022 21:24:57] "[31m[1mPOST /container/execution_status HTTP/1.1[0m" 400 -
+2022-04-12 21:25:16,680 - Exception on /container/execution_status [POST]
+Traceback (most recent call last):
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/kpit/.config/JetBrains/PyCharmCE2021.3/scratches/scratch_38.py", line 35, in post
+    args = self.req_parse.parse_args()
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask_restful/reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask_restful/reqparse.py", line 199, in parse
+    values = source.get(name)
+AttributeError: 'str' object has no attribute 'get'
+2022-04-12 21:25:16,718 - 127.0.0.1 - - [12/Apr/2022 21:25:16] "[35m[1mPOST /container/execution_status HTTP/1.1[0m" 500 -
+2022-04-12 21:25:49,421 - Exception on /container/execution_status [POST]
+Traceback (most recent call last):
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/kpit/.config/JetBrains/PyCharmCE2021.3/scratches/scratch_38.py", line 35, in post
+    args = self.req_parse.parse_args()
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask_restful/reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+  File "/home/kpit/.local/lib/python3.6/site-packages/flask_restful/reqparse.py", line 199, in parse
+    values = source.get(name)
+AttributeError: 'str' object has no attribute 'get'
+2022-04-12 21:25:49,422 - 127.0.0.1 - - [12/Apr/2022 21:25:49] "[35m[1mPOST /container/execution_status HTTP/1.1[0m" 500 -
+2022-04-12 21:26:10,247 - 127.0.0.1 - - [12/Apr/2022 21:26:10] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-12 21:27:08,693 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-12 21:27:08,693 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-12 21:27:15,654 - 127.0.0.1 - - [12/Apr/2022 21:27:15] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-12 21:27:43,044 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-12 21:27:43,044 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-12 21:27:46,355 - 127.0.0.1 - - [12/Apr/2022 21:27:46] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-12 21:33:19,518 - 127.0.0.1 - - [12/Apr/2022 21:33:19] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-13 09:13:32,717 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-13 09:13:32,718 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-13 09:17:14,800 - 127.0.0.1 - - [13/Apr/2022 09:17:14] "[33mPOST /container/get_execution_status HTTP/1.1[0m" 404 -
+2022-04-13 09:18:50,101 - 127.0.0.1 - - [13/Apr/2022 09:18:50] "[33mPOST /container/get_execution_status HTTP/1.1[0m" 404 -
+2022-04-13 09:20:11,599 - 127.0.0.1 - - [13/Apr/2022 09:20:11] "[33mPOST /container/get_execution_status HTTP/1.1[0m" 404 -
+2022-04-13 09:20:22,958 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-13 09:20:22,958 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-13 09:20:25,476 - 127.0.0.1 - - [13/Apr/2022 09:20:25] "[33mPOST /container/get_execution_status HTTP/1.1[0m" 404 -
+2022-04-13 09:21:28,614 - 127.0.0.1 - - [13/Apr/2022 09:21:28] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-13 09:21:41,377 - 127.0.0.1 - - [13/Apr/2022 09:21:41] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-13 09:41:25,030 - 127.0.0.1 - - [13/Apr/2022 09:41:25] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-13 09:42:10,741 - 127.0.0.1 - - [13/Apr/2022 09:42:10] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-13 11:41:34,115 - 127.0.0.1 - - [13/Apr/2022 11:41:34] "[31m[1mPOST /container/execution_status HTTP/1.1[0m" 400 -
+2022-04-13 11:43:24,695 - 127.0.0.1 - - [13/Apr/2022 11:43:24] "[31m[1mPOST /container/execution_status HTTP/1.1[0m" 400 -
+2022-04-13 11:44:47,037 - 127.0.0.1 - - [13/Apr/2022 11:44:47] "[31m[1mPOST /container/execution_status HTTP/1.1[0m" 400 -
+2022-04-13 11:46:00,141 - 127.0.0.1 - - [13/Apr/2022 11:46:00] "POST /container/execution_status HTTP/1.1" 200 -
+2022-04-13 12:33:27,159 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-13 12:33:27,160 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-19 12:45:46,266 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-19 12:45:46,280 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-19 13:36:26,254 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-19 13:36:26,255 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-19 14:14:47,795 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-19 14:14:47,796 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
+2022-04-19 14:19:18,700 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-19 14:19:18,700 -  * Running on http://100.64.0.1:5000/ (Press CTRL+C to quit)
